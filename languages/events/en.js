@@ -13,8 +13,8 @@ module.exports = {
 			session2: "noon",
 			session3: "afternoon",
 			session4: "evening",
-			leaveType1: "left the group",
-			leaveType2: "was kicked from the group"
+			leaveType1: "𝐀̀ 𝐄𝐍 𝐅𝐈𝐍 𝐃𝐄́𝐂𝐈𝐃𝐄 𝐃𝐄 𝐒𝐄 𝐁𝐀𝐑𝐑𝐄́",
+			leaveType2: "𝐁𝐎𝐍 𝐁𝐀𝐇 𝐈𝐋 𝐋𝐀 𝐒𝐔𝐏𝐏 𝐀 𝐐𝐔𝐈 𝐋𝐄 𝐓𝐎𝐔𝐑 ?"
 		}
 	},
 	logsbot: {
