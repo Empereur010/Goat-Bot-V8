@@ -25,12 +25,12 @@ module.exports = {
       const minutes = Math.floor((uptime % 3600) / 60);
       const seconds = Math.floor(uptime % 60);
       
-      const uptimeString = `☞${days} 𝐝𝐚𝐲𝐬🍁, 
-☞${hours} 𝐡𝐨𝐮𝐫𝐬🍁, 
-☞${minutes} 𝐦𝐢𝐧𝐮𝐭𝐞𝐬🍁, 
-☞${seconds} 𝐬𝐞𝐜𝐨𝐧𝐝𝐬🍁`;
+      const uptimeString = `☞${days} 𝐃𝐚𝐲𝐬🍁, 
+☞${hours} 𝐇𝐨𝐮𝐫𝐬🍁, 
+☞${minutes} 𝐌𝐢𝐧𝐮𝐭𝐞𝐬🍁, 
+☞${seconds} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬🍁`;
       
-      api.sendMessage(`💀 | 𝐓𝐈𝐌𝐄 𝑐𝑜𝑛𝑞𝑢𝑒𝑟𝑖𝑛𝑔 𝑤𝑜𝑟𝑙𝑑\n${uptimeString}`, event.threadID);
+      api.sendMessage(`💀 | 𝐓𝐈𝐌𝐄 𝐂𝐎𝐍𝐐𝐔𝐄𝐑𝐈𝐍𝐆 𝐖𝐎𝐑𝐋𝐃\n${uptimeString}`, event.threadID);
     } catch (error) {
       console.error(error);
       api.sendMessage("An error occurred while retrieving data.", event.threadID);
